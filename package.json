@@ -1,0 +1,17 @@
+{
+  "name": "wcc-cypress-test",
+  "version": "1.0.0",
+  "description": "WCC QA Automation tech test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec 'cypress/e2e/spec.cy.js'"
+  },
+  "keywords": [],
+  "author": "Michael Adeyemo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  }
+}
